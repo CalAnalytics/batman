@@ -37,7 +37,7 @@ ezplot(f6,[ 1  3 -5 5]);
 set(get(gca,'children'),'Color','b','Linew',2)
 % Title and labels
 
-title('I''m Batman'); xlabel('Villainy','color','black'); ylabel('Justice','color','black'); legend('Plotline')
+title('I''m Batman'); xlabel('Villainy','color','black'); ylabel('Justice','color','black');
 % Superimpose black axes with xy-ticklabels
 
 xlbl(1:15,1:2) = ' '; xlbl([1,15],:) = ['-7';' 7'];
