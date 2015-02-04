@@ -18,7 +18,7 @@ ezplot(f2,[-4 4]);
 
 f3 = '9 * sqrt(abs((1-abs(x))*(abs(x)-0.75)) / ((1-abs(x))*(abs(x)-0.75))) - 8*abs(x) - y';
 ezplot(f3,[-1    -0.75 -5 5]);
-ezplot(f3,[ 0.75  1    -5 5]);
+%ezplot(f3,[ 0.75  1    -5 5]);
 % Inner ears
 
 f4 = '3*abs(x) + 0.75*sqrt(abs((0.75-abs(x))*(abs(x)-.5)) / ((.75-abs(x))*(abs(x)-.5))) - y';
